@@ -9,13 +9,18 @@ import { ImpurePipeComponent } from './impure-pipe/impure-pipe.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTabsModule } from '@angular/material/tabs';
+import { SayHelloPipe, RandomNumberPipe } from './demo-pipes.pipe';
+import { NoPipeComponent } from './no-pipe/no-pipe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     PurePipeComponent,
-    ImpurePipeComponent
+    ImpurePipeComponent,
+    SayHelloPipe,
+    RandomNumberPipe,
+    NoPipeComponent
   ],
   imports: [
     BrowserModule,
