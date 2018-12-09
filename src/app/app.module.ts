@@ -9,7 +9,7 @@ import { ImpurePipeComponent } from './impure-pipe/impure-pipe.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTabsModule } from '@angular/material/tabs';
-import { SayHelloPipe, RandomNumberPipe } from './demo-pipes.pipe';
+import { PowerPipe, RandomNumberPipe } from './demo-pipes.pipe';
 import { NoPipeComponent } from './no-pipe/no-pipe.component';
 
 @NgModule({
@@ -18,7 +18,7 @@ import { NoPipeComponent } from './no-pipe/no-pipe.component';
     HomeComponent,
     PurePipeComponent,
     ImpurePipeComponent,
-    SayHelloPipe,
+    PowerPipe,
     RandomNumberPipe,
     NoPipeComponent
   ],

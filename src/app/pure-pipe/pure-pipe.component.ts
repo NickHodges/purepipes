@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pure-pipe.component.css']
 })
 export class PurePipeComponent implements OnInit {
-
+  public counter = 0;
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
+  increaseCounter() {
+    this.counter += 1;
+  }
 }

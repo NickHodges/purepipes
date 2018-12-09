@@ -11,8 +11,8 @@ export class NoPipeComponent implements OnInit {
 
   ngOnInit() {}
 
-  addOneHundred(value) {
-    return value + 100;
+  power(value: number, exp: number) {
+    return Math.pow(value, exp);
   }
 
   increaseCounter() {

@@ -1,1 +1,6 @@
-<h1>Result from sayHello pipe: {{ 'Nick' | sayHello }}</h1>
+<h1>
+  <p>Counter: {{ counter }}</p>
+  <p>Cube: {{ counter | power: 3 }}</p>
+  
+  <button (click)="increaseCounter()">Increase Counter</button>
+</h1>
